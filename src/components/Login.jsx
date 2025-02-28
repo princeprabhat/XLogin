@@ -11,7 +11,7 @@ const Login = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (value.username !== "username" && value.password !== "password") {
+    if (value.username !== "user" && value.password !== "password") {
       setError(true);
       return;
     }
