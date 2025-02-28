@@ -27,7 +27,7 @@ const Login = () => {
         <p>Welcome, user!</p>
       ) : (
         <form onSubmit={handleFormSubmit}>
-          <label>UserName:</label>
+          <label>Username:</label>
           <input
             type="text"
             name="password"
